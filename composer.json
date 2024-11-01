@@ -1,0 +1,33 @@
+{
+  "name": "sksoftware/postone-for-woocommerce",
+  "description": "This plugin integrates PostOne shipping method for WooCommerce.",
+  "authors": [
+    {
+      "name": "Simeon Kolev",
+      "email": "simeon.kolev9@gmail.com"
+    },
+    {
+      "name": "Martin Shterev",
+      "email": "wizzyto12@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.6|^7.0|^8.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^4.0|^5.0|^6.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+    "squizlabs/php_codesniffer": "^3.6",
+    "wp-coding-standards/wpcs": "^2.3"
+  },
+  "config": {
+    "autoloader-suffix": "SksoftwarePostoneForWoocommerce",
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "scripts": {
+    "phpcs": "phpcs --standard=phpcs.xml"
+  }
+}
